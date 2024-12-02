@@ -14,6 +14,7 @@ router.get("/faild", function (req, res) {
 router.get("/cheakkaro", function (req, res) {
   console.log(req.flash("age")); //
 
+  
   res.send("cheak karlo Backend ke terminal pe");
 });
 module.exports = router;
